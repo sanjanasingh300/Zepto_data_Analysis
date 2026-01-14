@@ -1,16 +1,16 @@
 
-🛒 Zepto E-Commerce SQL Data Analysis Project
+#Zepto E-Commerce SQL Data Analysis Project
 
 Short description: This Project simulates a real-world SQL data analyst case study based on Zepto.The goal is to analyze orders, customers, products, and delivery performance using SQL to generate business insight.
 
-Key KPIs
+## Key KPIs
 
 Total Sales: $900.45K
 Average Sales per Transaction: $140
 Average Customer Rating: 3.9
 Number of Items Sold: 6,412
 
-📌 Project Overview
+## Project Overview
 
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 
@@ -22,7 +22,7 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 
 ✅ Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue and more
 
-📁 Dataset Overview
+## Dataset Overview
 
 The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
 
