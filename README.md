@@ -78,7 +78,7 @@ CREATE TABLE zepto (
 
 Detected products present multiple times, representing different SKUs
 
-4. Data Cleaning
+3. Data Cleaning
 Identified and removed rows where MRP or discounted selling price was zero
 
 Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
