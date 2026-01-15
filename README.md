@@ -32,25 +32,25 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 
 ## Columns:
 
-*sku_id: Unique identifier for each product entry (Synthetic Primary Key)
+* sku_id: Unique identifier for each product entry (Synthetic Primary Key)
 
-*name: Product name as it appears on the app
+* name: Product name as it appears on the app
 
-*category: Product category like Fruits, Snacks, Beverages, etc.
+* category: Product category like Fruits, Snacks, Beverages, etc.
 
-*mrp: Maximum Retail Price (originally in paise, converted to ₹)
+* mrp: Maximum Retail Price (originally in paise, converted to ₹)
 
-*discountPercent: Discount applied on MRP
+* discount Percent: Discount applied on MRP
 
-*discountedSellingPrice: Final price after discount (also converted to ₹)
+* discounted Selling Price: Final price after discount (also converted to ₹)
 
-*availableQuantity: Units available in inventory
+* available Quantity: Units available in inventory
 
-*weightInGms: Product weight in grams
+* weight In Gms: Product weight in grams
 
-*outOfStock: Boolean flag indicating stock availability
+* out Of Stock: Boolean flag indicating stock availability
 
-quantity: Number of units per package (mixed with grams for loose produce)
+* quantity: Number of units per package (mixed with grams for loose produce)
 
 ## Project Workflow
 
@@ -71,17 +71,23 @@ CREATE TABLE zepto (
 
 2.Data Exploration
 
-*Counted the total number of records in the dataset
-*Viewed a sample of the dataset to understand structure and content
-*Checked for null values across all columns
-*Identified distinct product categories available in the dataset
-*Compared in-stock vs out-of-stock product counts
+* Counted the total number of records in the dataset
 
-Detected products present multiple times, representing different SKUs
+* Viewed a sample of the dataset to understand structure and content
+
+* Checked for null values across all columns
+
+* Identified distinct product categories available in the dataset
+
+* Compared in-stock vs out-of-stock product counts
+
+* Detected products present multiple times, representing different SKUs
 
 3. Data Cleaning
-*Identified and removed rows where MRP or discounted selling price was zero
-*Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
+   
+* Identified and removed rows where MRP or discounted selling price was zero
+
+* Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
 
 
 
