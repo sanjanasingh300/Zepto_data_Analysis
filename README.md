@@ -70,6 +70,7 @@ CREATE TABLE zepto (
 );
 
 2.Data Exploration
+
 *Counted the total number of records in the dataset
 *Viewed a sample of the dataset to understand structure and content
 *Checked for null values across all columns
